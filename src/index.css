@@ -1,1 +1,49 @@
 @import "tailwindcss";
+
+* {
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    background-color: var(--color-background);
+    color: var(--color-textColor);
+    height: 100vh;
+    padding: 3rem;
+}
+
+@theme {
+    --color-background: #171717;
+    --color-friends : #64F58D;
+    --color-couples: #C94277;
+    --color-box: #3D3D3D;
+    --color-footer: #242424;
+    --color-textColor: #FFFFFF;
+}
+
+footer {
+    position: absolute;
+    bottom: 0   ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+    height: 12%;
+    width: 100%;
+    background-color: var(--color-footer);
+}
+
+footer .textBox h2 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+footer .textBox p {
+    font-size: 0.75rem;
+    width: 20rem;
+    opacity: 75%;
+}
