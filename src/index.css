@@ -4,6 +4,15 @@
     font-family: "Inter", sans-serif;
 }
 
+@theme {
+    --color-background: #171717;
+    --color-friends : #64F58D;
+    --color-couples: #C94277;
+    --color-box: #3D3D3D;
+    --color-footer: #242424;
+    --color-textColor: #FFFFFF;
+}
+
 body {
     display: flex;
     justify-content: start;
@@ -16,14 +25,7 @@ body {
     padding: 3rem;
 }
 
-@theme {
-    --color-background: #171717;
-    --color-friends : #64F58D;
-    --color-couples: #C94277;
-    --color-box: #3D3D3D;
-    --color-footer: #242424;
-    --color-textColor: #FFFFFF;
-}
+
 
 footer {
     position: absolute;
@@ -32,7 +34,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 5%;
-    height: 12%;
+    height: 15%;
     width: 100%;
     background-color: var(--color-footer);
 }
@@ -43,7 +45,7 @@ footer .textBox h2 {
 }
 
 footer .textBox p {
-    font-size: 0.75rem;
-    width: 20rem;
+    font-size: 0.70rem;
+    width: 15rem;
     opacity: 75%;
 }

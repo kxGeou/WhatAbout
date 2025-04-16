@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "title": "Domowy wieczór filmowy",
+      "description": "Wybierzcie ulubione filmy, popcorn i kocyk.",
+      "paid": false,
+      "location": "indoor",
+      "type": "couple"
+    },
+    {
+      "id": 2,
+      "title": "Gra planszowa z przyjaciółmi",
+      "description": "Wyciągnijcie planszówki i zróbcie turniej.",
+      "paid": false,
+      "location": "indoor",
+      "type": "friends"
+    },
+    {
+      "id": 3,
+      "title": "Spacer po parku z kawą",
+      "description": "Idźcie na spacer i weźcie kawę na wynos.",
+      "paid": true,
+      "location": "outdoor",
+      "type": "couple"
+    },
+    {
+      "id": 4,
+      "title": "Wspólne gotowanie",
+      "description": "Zróbcie razem nowe danie – coś, czego jeszcze nie jedliście.",
+      "paid": true,
+      "location": "indoor",
+      "type": "couple"
+    },
+    {
+      "id": 5,
+      "title": "Gra w siatkówkę / piłkę na boisku",
+      "description": "Zorganizujcie mecz z paczką znajomych.",
+      "paid": false,
+      "location": "outdoor",
+      "type": "friends"
+    },
+    {
+      "id": 6,
+      "title": "Kawiarnia z quizem",
+      "description": "Znajdź lokal, który organizuje quizy i wybierzcie się razem.",
+      "paid": true,
+      "location": "outdoor",
+      "type": "friends"
+    }
+  ]
+  

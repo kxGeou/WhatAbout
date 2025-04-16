@@ -1,9 +1,9 @@
 import Header from "./components/Header"
-
 function App() {
+
   return (
     <main>    
-      <Header type="Friends"></Header>
+      <Header type="couple"></Header>
     </main>
   )
 }
