@@ -3,7 +3,7 @@ import Header from "./components/Header"
 import DateGetter from "./components/DateGetter"
 import Buttons from "./components/Buttons"
 function App() {
-  const [data, setData] = useState({type : "no-filter", paid : false, location: "outdoor"})
+  const [data, setData] = useState({type : "no-filter", paid : null, location: null})
   const filterReset = {type: "no-filter", paid : null, location : null}
 
   return (
