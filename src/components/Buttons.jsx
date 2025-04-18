@@ -5,7 +5,7 @@ function Buttons({ data, setData }) {
     <section className="flex justify-center flex-col items-center gap-4">
       <div className="flex gap-4">
         <button
-          className={`bg-box p-2 ${data.type == "couple" && "bg-red-500"}`}
+          className={` ${data.type == "couple" && "bg-red-500"}`}
           onClick={() => {
             if (data.type === "couple") {
               setData({ ...data, type: "no-filter" });
@@ -15,7 +15,7 @@ function Buttons({ data, setData }) {
           Couple
         </button>
         <button
-          className={`bg-box p-2 ${data.type == "friends" && "bg-green-500"}`}
+          className={` ${data.type == "friends" && "bg-green-500"}`}
           onClick={() => {
             if (data.type === "friends") {
               setData({ ...data, type: "no-filter" });
@@ -28,7 +28,7 @@ function Buttons({ data, setData }) {
 
       <div className="flex gap-4">
         <button
-          className="bg-box p-2"
+          className=""
           onClick={() => {
             if (data.paid === true) {
               setData({ ...data, paid: null });
@@ -38,7 +38,7 @@ function Buttons({ data, setData }) {
           Pieniądze
         </button>
         <button
-          className="bg-box p-2"
+          className=""
           onClick={() => {
             if (data.paid === false) {
               setData({ ...data, paid: null });
@@ -50,7 +50,7 @@ function Buttons({ data, setData }) {
       </div>
       <div className="flex gap-4">
         <button
-          className="bg-box p-2"
+          className=""
           onClick={() => {
             if (data.location === "indoor") {
               setData({ ...data, location: null });
@@ -60,7 +60,7 @@ function Buttons({ data, setData }) {
           Wewnątrz
         </button>
         <button
-          className="bg-box p-2"
+          className=""
           onClick={() => {
             if (data.location === "outdoor") {
               setData({ ...data, location: null });

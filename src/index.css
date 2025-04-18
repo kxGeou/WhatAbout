@@ -56,3 +56,7 @@ footer .social-box {
     color: var(--color-couples);
     opacity: 100%;
 }
+
+button {
+    background-color: var(--color-box);
+}

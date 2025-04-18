@@ -1,51 +1,162 @@
 [
-    {
-      "id": 1,
-      "title": "Domowy wieczór filmowy",
-      "description": "Wybierzcie ulubione filmy, popcorn i kocyk.",
-      "paid": false,
-      "location": "indoor",
-      "type": "couple"
-    },
-    {
-      "id": 2,
-      "title": "Gra planszowa z przyjaciółmi",
-      "description": "Wyciągnijcie planszówki i zróbcie turniej.",
-      "paid": false,
-      "location": "indoor",
-      "type": "friends"
-    },
-    {
-      "id": 3,
-      "title": "Spacer po parku z kawą",
-      "description": "Idźcie na spacer i weźcie kawę na wynos.",
-      "paid": true,
-      "location": "outdoor",
-      "type": "couple"
-    },
-    {
-      "id": 4,
-      "title": "Wspólne gotowanie",
-      "description": "Zróbcie razem nowe danie – coś, czego jeszcze nie jedliście.",
-      "paid": true,
-      "location": "indoor",
-      "type": "couple"
-    },
-    {
-      "id": 5,
-      "title": "Gra w siatkówkę / piłkę na boisku",
-      "description": "Zorganizujcie mecz z paczką znajomych.",
-      "paid": false,
-      "location": "outdoor",
-      "type": "friends"
-    },
-    {
-      "id": 6,
-      "title": "Kawiarnia z quizem",
-      "description": "Znajdź lokal, który organizuje quizy i wybierzcie się razem.",
-      "paid": true,
-      "location": "outdoor",
-      "type": "friends"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "title": "Domowy wieczór filmowy",
+    "description": "Wybierzcie ulubione filmy, popcorn i kocyk.",
+    "paid": false,
+    "location": "indoor",
+    "type": "couple"
+  },
+  {
+    "id": 2,
+    "title": "Gra planszowa z przyjaciółmi",
+    "description": "Wyciągnijcie planszówki i zróbcie turniej.",
+    "paid": false,
+    "location": "indoor",
+    "type": "friends"
+  },
+  {
+    "id": 3,
+    "title": "Spacer po parku z kawą",
+    "description": "Idźcie na spacer i weźcie kawę na wynos.",
+    "paid": true,
+    "location": "outdoor",
+    "type": "couple"
+  },
+  {
+    "id": 4,
+    "title": "Wspólne gotowanie",
+    "description": "Zróbcie razem nowe danie – coś, czego jeszcze nie jedliście.",
+    "paid": true,
+    "location": "indoor",
+    "type": "couple"
+  },
+  {
+    "id": 5,
+    "title": "Gra w siatkówkę / piłkę na boisku",
+    "description": "Zorganizujcie mecz z paczką znajomych.",
+    "paid": false,
+    "location": "outdoor",
+    "type": "friends"
+  },
+  {
+    "id": 6,
+    "title": "Kawiarnia z quizem",
+    "description": "Znajdź lokal, który organizuje quizy i wybierzcie się razem.",
+    "paid": true,
+    "location": "outdoor",
+    "type": "friends"
+  },
+  {
+    "id": 7,
+    "title": "Wieczór karaoke",
+    "description": "Rozkręćcie domowe karaoke lub wybierzcie się do klubu.",
+    "paid": false,
+    "location": "indoor",
+    "type": "friends"
+  },
+  {
+    "id": 8,
+    "title": "Wspólna joga lub medytacja",
+    "description": "Znajdźcie spokojne miejsce i zrelaksujcie się razem.",
+    "paid": false,
+    "location": "indoor",
+    "type": "couple"
+  },
+  {
+    "id": 9,
+    "title": "Nocne obserwowanie gwiazd",
+    "description": "Zabierzcie koc, termos i wybierzcie się poza miasto.",
+    "paid": false,
+    "location": "outdoor",
+    "type": "couple"
+  },
+  {
+    "id": 10,
+    "title": "Wspólne rysowanie lub malowanie",
+    "description": "Zróbcie artystyczny wieczór – farby, szkicowniki i dobra zabawa.",
+    "paid": false,
+    "location": "indoor",
+    "type": "friends"
+  },
+  {
+    "id": 11,
+    "title": "Wypad na rowery",
+    "description": "Wybierzcie ciekawą trasę i zróbcie wycieczkę rowerową.",
+    "paid": false,
+    "location": "outdoor",
+    "type": "couple"
+  },
+  {
+    "id": 12,
+    "title": "Domowy turniej gier video",
+    "description": "Zorganizujcie rywalizację w ulubione gry.",
+    "paid": false,
+    "location": "indoor",
+    "type": "friends"
+  },
+  {
+    "id": 13,
+    "title": "Piknik w parku",
+    "description": "Przygotujcie jedzenie i koc – czas na leniwe popołudnie.",
+    "paid": false,
+    "location": "outdoor",
+    "type": "couple"
+  },
+  {
+    "id": 14,
+    "title": "Wspólne puzzle",
+    "description": "Usiądźcie razem i ułóżcie duże puzzle – relaks i rozmowa.",
+    "paid": false,
+    "location": "indoor",
+    "type": "couple"
+  },
+  {
+    "id": 15,
+    "title": "Wypad do escape roomu",
+    "description": "Rozwiążcie zagadki i sprawdźcie swoją współpracę.",
+    "paid": true,
+    "location": "indoor",
+    "type": "friends"
+  },
+  {
+    "id": 16,
+    "title": "Wspólne pieczenie ciast",
+    "description": "Upieczcie coś pysznego – najlepiej w duecie.",
+    "paid": true,
+    "location": "indoor",
+    "type": "couple"
+  },
+  {
+    "id": 17,
+    "title": "Ognisko z kiełbaskami",
+    "description": "Spotkajcie się wieczorem przy ogniu i pogadajcie do nocy.",
+    "paid": false,
+    "location": "outdoor",
+    "type": "friends"
+  },
+  {
+    "id": 18,
+    "title": "Wizyta w galerii sztuki lub muzeum",
+    "description": "Odwiedźcie nowe miejsce kultury i zainspirujcie się.",
+    "paid": true,
+    "location": "outdoor",
+    "type": "couple"
+  },
+  {
+    "id": 19,
+    "title": "Domowy wieczór tematyczny",
+    "description": "Zróbcie wieczór w stylu lat 80., hawajskim lub detektywistycznym.",
+    "paid": false,
+    "location": "indoor",
+    "type": "friends"
+  },
+  {
+    "id": 20,
+    "title": "Zajęcia taneczne",
+    "description": "Zapiszcie się na kurs tańca lub tańczcie w domu z YouTube'em.",
+    "paid": true,
+    "location": "indoor",
+    "type": "couple"
+  }
+]
