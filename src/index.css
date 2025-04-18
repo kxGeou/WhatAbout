@@ -7,7 +7,7 @@
 @theme {
     --color-background: #171717;
     --color-friends : #64F58D;
-    --color-couples: #C94277;
+    --color-couple: #C94277;
     --color-box: #3D3D3D;
     --color-footer: #242424;
     --color-textColor: #FFFFFF;
@@ -59,4 +59,15 @@ footer .social-box {
 
 button {
     background-color: var(--color-box);
+    border-radius: 6px;
+    padding: 0.60rem 1rem;
+    min-width: 10rem;
+    max-width: 15rem;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+
+button:hover {
+    background-color: var(--color-footer);
 }
