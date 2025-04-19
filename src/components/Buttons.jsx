@@ -39,7 +39,7 @@ function Buttons({ data, setData }) {
                 } else setData({ ...data, paid: true });
               }}
             >
-              Bez wydatków
+              Z budżetem
             </button>
             <button
               className={`shadow-blue-300 shadow-[0px_0px_10px_2px] ${data.paid != null && data.paid == false ? `shadow-${data.type} shadow-[0px_0px_10px_2px]` : `shadow-transparent`}`}
@@ -49,7 +49,7 @@ function Buttons({ data, setData }) {
                 } else setData({ ...data, paid: false });
               }}
             >
-              Z budżetem
+              Bez wydatków
             </button>
           </div>
         </div>
