@@ -1,6 +1,7 @@
 import React from 'react'
 import Heart from '../assets/heart.png'
 import Flower from '../assets/flower.png'
+import { FiRefreshCw } from "react-icons/fi";
 
 function Modal({ visible, description, title, paid, location, type, imageUrl }) {
   return (
@@ -14,7 +15,7 @@ function Modal({ visible, description, title, paid, location, type, imageUrl }) 
           <span className='font-bold text-xl'>{title}</span>
         </div>
         <p>{description}</p>
-        <a href="/" className='bg-stone-900 py-3 px-6 rounded-xl hover:bg-stone-800'>Wylosuj ponownie</a>
+        <a href="/" className='flex justify-center items-center gap-2 bg-stone-900 py-3 px-6 rounded-xl hover:bg-stone-800'>Wylosuj ponownie <FiRefreshCw /></a>
       </div>
     </div>
   )

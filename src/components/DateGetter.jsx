@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Dates from "../data/data.json";
 import Modal from "./Modal";
-
+import { FiRefreshCw } from "react-icons/fi";
 function DateGetter({ data, setData }) {
   const fullList = Dates.map((dates) => dates);
   const [filteredActivity, setFilteredActivity] = useState({
@@ -48,7 +48,7 @@ function DateGetter({ data, setData }) {
         description={filteredActivity.description}
         imageUrl={filteredActivity.imageUrl}
       ></Modal>
-      <button onClick={generateDate}>Wylosuj</button>
+      <button onClick={generateDate} className="flex justify-center items-center gap-2 bg-box mt-18 w-[15rem] h-[2.75rem] rounded cursor-pointer transition-all ease-in hover:bg-footer ">Wylosuj <FiRefreshCw /></button>
     </section>
   );
 }

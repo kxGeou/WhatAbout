@@ -5,7 +5,7 @@ function Buttons({ data, setData }) {
     <section className="flex justify-center flex-col items-center gap-2 mt-4">
       <div className="flex gap-8">
         <button
-          className={` ${data.type == "couple" && "shadow-couple shadow-[0px_0px_10px_2px]"}`}
+          className={`buttonek ${data.type == "couple" && "shadow-couple shadow-[0px_0px_10px_2px]"}`}
           onClick={() => {
             if (data.type === "couple") {
               setData({ ...data, type: "no-filter" });
@@ -15,7 +15,7 @@ function Buttons({ data, setData }) {
           Couple
         </button>
         <button
-          className={` ${data.type == "friends" && "shadow-friends shadow-[0px_0px_10px_2px]"}`}
+          className={`buttonek ${data.type == "friends" && "shadow-friends shadow-[0px_0px_10px_2px]"}`}
           onClick={() => {
             if (data.type === "friends") {
               setData({ ...data, type: "no-filter" });
@@ -32,7 +32,7 @@ function Buttons({ data, setData }) {
         <div>
           <div className="flex gap-6">
             <button 
-              className={`shadow-blue-300 shadow-[0px_0px_10px_2px] ${data.paid != null && data.paid == true ? `shadow-${data.type} shadow-[0px_0px_10px_2px]` : `shadow-transparent`}`}
+              className={`buttonek shadow-blue-300 shadow-[0px_0px_10px_2px] ${data.paid != null && data.paid == true ? `shadow-${data.type} shadow-[0px_0px_10px_2px]` : `shadow-transparent`}`}
               onClick={() => {
                 if (data.paid === true) {
                   setData({ ...data, paid: null });
@@ -42,7 +42,7 @@ function Buttons({ data, setData }) {
               Z budżetem
             </button>
             <button
-              className={`shadow-blue-300 shadow-[0px_0px_10px_2px] ${data.paid != null && data.paid == false ? `shadow-${data.type} shadow-[0px_0px_10px_2px]` : `shadow-transparent`}`}
+              className={`buttonek shadow-blue-300 shadow-[0px_0px_10px_2px] ${data.paid != null && data.paid == false ? `shadow-${data.type} shadow-[0px_0px_10px_2px]` : `shadow-transparent`}`}
               onClick={() => {
                 if (data.paid === false) {
                   setData({ ...data, paid: null });
@@ -56,7 +56,7 @@ function Buttons({ data, setData }) {
         <div>
           <div className="flex gap-6">
             <button
-              className={`shadow-blue-300 shadow-[0px_0px_10px_2px] ${data.location != null && data.location == "indoor" ? `shadow-${data.type} shadow-[0px_0px_10px_2px]` : `shadow-transparent`}`}
+              className={`buttonek shadow-blue-300 shadow-[0px_0px_10px_2px] ${data.location != null && data.location == "indoor" ? `shadow-${data.type} shadow-[0px_0px_10px_2px]` : `shadow-transparent`}`}
               onClick={() => {
                 if (data.location === "indoor") {
                   setData({ ...data, location: null });
@@ -66,7 +66,7 @@ function Buttons({ data, setData }) {
               W domu
             </button>
             <button
-              className={`shadow-blue-300 shadow-[0px_0px_10px_2px] ${data.location != null && data.location == "outdoor" ? `shadow-${data.type} shadow-[0px_0px_10px_2px]` : `shadow-transparent`}`}
+              className={`buttonek shadow-blue-300 shadow-[0px_0px_10px_2px] ${data.location != null && data.location == "outdoor" ? `shadow-${data.type} shadow-[0px_0px_10px_2px]` : `shadow-transparent`}`}
               onClick={() => {
                 if (data.location === "outdoor") {
                   setData({ ...data, location: null });

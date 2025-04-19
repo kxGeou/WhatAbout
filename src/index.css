@@ -57,7 +57,7 @@ footer .social-box {
     opacity: 100%;
 }
 
-button {
+.buttonek {
     background-color: var(--color-box);
     border-radius: 6px;
     padding: 0.60rem 1rem;
@@ -68,7 +68,7 @@ button {
 }
 
 
-button:hover {
+.buttonek:hover {
     background-color: var(--color-footer);
 }
 .modal {
