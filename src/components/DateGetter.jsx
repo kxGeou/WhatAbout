@@ -1,9 +1,17 @@
 import React, { useState } from "react";
 import Dates from "../data/data.json";
+import Modal from "./Modal";
 
 function DateGetter({ data, setData }) {
   const fullList = Dates.map((dates) => dates);
-  const [filteredActivity, setFilteredActivity] = useState({title : null, description : null, type : null, paid: null, location : null})
+  const [filteredActivity, setFilteredActivity] = useState({
+    title: null,
+    description: null,
+    type: null,
+    paid: null,
+    location: null,
+  });
+  const [visibleModal, setVisibleModal] = useState(false);
   const filteredActivities = Dates.filter((item) => {
     return (
       (data.paid === null || item.paid === data.paid) &&
@@ -13,27 +21,35 @@ function DateGetter({ data, setData }) {
   });
 
   function generateDate() {
-    const sourceList = filteredActivities.length > 0 ? filteredActivities : fullList
-    const randomIndex = Math.floor(Math.random() * sourceList.length);
-    const result = sourceList[randomIndex];
-  
-    setFilteredActivity({
-      title: result.title,
-      description: result.description,
-      type: result.type,
-      paid: result.paid,
-      location: result.location
-    });
+    setTimeout(() => {
+      const sourceList =
+        filteredActivities.length > 0 ? filteredActivities : fullList;
+      const randomIndex = Math.floor(Math.random() * sourceList.length);
+      const result = sourceList[randomIndex];
+      setVisibleModal(true);
+      setFilteredActivity({
+        title: result.title,
+        description: result.description,
+        type: result.type,
+        paid: result.paid,
+        location: result.location,
+        imageUrl: result.imageUrl,
+      });
+    }, 500); 
   }
-
-  
   return (
-    <div>
-      <p>{filteredActivity.title}</p>
-      <p>{filteredActivity.description}</p>
-      <div className="flex gap-4"><span>{filteredActivity.paid ? "Płatne" : "Nie płatne"}</span><span>{filteredActivity.location}</span> <span>{filteredActivity.type}</span></div>
+    <section>
+      <Modal
+        visible={visibleModal}
+        type={filteredActivity.type}
+        title={filteredActivity.title}
+        paid={filteredActivity.paid}
+        location={filteredActivity.location}
+        description={filteredActivity.description}
+        imageUrl={filteredActivity.imageUrl}
+      ></Modal>
       <button onClick={generateDate}>Wylosuj</button>
-    </div>
+    </section>
   );
 }
 

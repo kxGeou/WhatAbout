@@ -71,3 +71,30 @@ button {
 button:hover {
     background-color: var(--color-footer);
 }
+.modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(20, 20, 20, 0.30);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    z-index: 100;
+  
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    opacity: 0;
+    transform: scale(0.95);
+    pointer-events: none;
+  }
+  
+  .modal.opacity-100 {
+    opacity: 1;
+    transform: scale(1);
+    pointer-events: auto;
+  }
+  

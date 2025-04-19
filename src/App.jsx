@@ -11,7 +11,6 @@ function App() {
       <Header type={data.type}></Header>
 
       <Buttons data={data} setData={setData}></Buttons>
-
       <DateGetter data={data} setData={setData}></DateGetter>
     </main>
   )

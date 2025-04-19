@@ -5,7 +5,8 @@
     "description": "Wybierzcie ulubione filmy, popcorn i kocyk.",
     "paid": false,
     "location": "indoor",
-    "type": "couple"
+    "type": "couple",
+    "imageUrl": "https://source.unsplash.com/featured/?movie,home,couple"
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "description": "Wyciągnijcie planszówki i zróbcie turniej.",
     "paid": false,
     "location": "indoor",
-    "type": "friends"
+    "type": "friends",
+    "imageUrl": "https://source.unsplash.com/featured/?boardgame,friends,indoor"
   },
   {
     "id": 3,
@@ -21,7 +23,8 @@
     "description": "Idźcie na spacer i weźcie kawę na wynos.",
     "paid": true,
     "location": "outdoor",
-    "type": "couple"
+    "type": "couple",
+    "imageUrl": "https://source.unsplash.com/featured/?coffee,walk,park,couple"
   },
   {
     "id": 4,
@@ -29,7 +32,8 @@
     "description": "Zróbcie razem nowe danie – coś, czego jeszcze nie jedliście.",
     "paid": true,
     "location": "indoor",
-    "type": "couple"
+    "type": "couple",
+    "imageUrl": "https://source.unsplash.com/featured/?cooking,together,couple"
   },
   {
     "id": 5,
@@ -37,7 +41,8 @@
     "description": "Zorganizujcie mecz z paczką znajomych.",
     "paid": false,
     "location": "outdoor",
-    "type": "friends"
+    "type": "friends",
+    "imageUrl": "https://source.unsplash.com/featured/?volleyball,friends,outdoor"
   },
   {
     "id": 6,
@@ -45,7 +50,8 @@
     "description": "Znajdź lokal, który organizuje quizy i wybierzcie się razem.",
     "paid": true,
     "location": "outdoor",
-    "type": "friends"
+    "type": "friends",
+    "imageUrl": "https://source.unsplash.com/featured/?cafe,quiz,group"
   },
   {
     "id": 7,
@@ -53,7 +59,8 @@
     "description": "Rozkręćcie domowe karaoke lub wybierzcie się do klubu.",
     "paid": false,
     "location": "indoor",
-    "type": "friends"
+    "type": "friends",
+    "imageUrl": "https://source.unsplash.com/featured/?karaoke,party,friends"
   },
   {
     "id": 8,
@@ -61,7 +68,8 @@
     "description": "Znajdźcie spokojne miejsce i zrelaksujcie się razem.",
     "paid": false,
     "location": "indoor",
-    "type": "couple"
+    "type": "couple",
+    "imageUrl": "https://source.unsplash.com/featured/?yoga,meditation,couple"
   },
   {
     "id": 9,
@@ -69,7 +77,8 @@
     "description": "Zabierzcie koc, termos i wybierzcie się poza miasto.",
     "paid": false,
     "location": "outdoor",
-    "type": "couple"
+    "type": "couple",
+    "imageUrl": "https://source.unsplash.com/featured/?stargazing,night,couple"
   },
   {
     "id": 10,
@@ -77,7 +86,8 @@
     "description": "Zróbcie artystyczny wieczór – farby, szkicowniki i dobra zabawa.",
     "paid": false,
     "location": "indoor",
-    "type": "friends"
+    "type": "friends",
+    "imageUrl": "https://source.unsplash.com/featured/?painting,drawing,friends"
   },
   {
     "id": 11,
@@ -85,7 +95,8 @@
     "description": "Wybierzcie ciekawą trasę i zróbcie wycieczkę rowerową.",
     "paid": false,
     "location": "outdoor",
-    "type": "couple"
+    "type": "couple",
+    "imageUrl": "https://source.unsplash.com/featured/?cycling,couple,outdoor"
   },
   {
     "id": 12,
@@ -93,7 +104,8 @@
     "description": "Zorganizujcie rywalizację w ulubione gry.",
     "paid": false,
     "location": "indoor",
-    "type": "friends"
+    "type": "friends",
+    "imageUrl": "https://source.unsplash.com/featured/?videogame,tournament,friends"
   },
   {
     "id": 13,
@@ -101,7 +113,8 @@
     "description": "Przygotujcie jedzenie i koc – czas na leniwe popołudnie.",
     "paid": false,
     "location": "outdoor",
-    "type": "couple"
+    "type": "couple",
+    "imageUrl": "https://source.unsplash.com/featured/?picnic,park,couple"
   },
   {
     "id": 14,
@@ -109,7 +122,8 @@
     "description": "Usiądźcie razem i ułóżcie duże puzzle – relaks i rozmowa.",
     "paid": false,
     "location": "indoor",
-    "type": "couple"
+    "type": "couple",
+    "imageUrl": "https://source.unsplash.com/featured/?puzzle,couple,cozy"
   },
   {
     "id": 15,
@@ -117,7 +131,8 @@
     "description": "Rozwiążcie zagadki i sprawdźcie swoją współpracę.",
     "paid": true,
     "location": "indoor",
-    "type": "friends"
+    "type": "friends",
+    "imageUrl": "https://source.unsplash.com/featured/?escape,room,game"
   },
   {
     "id": 16,
@@ -125,7 +140,8 @@
     "description": "Upieczcie coś pysznego – najlepiej w duecie.",
     "paid": true,
     "location": "indoor",
-    "type": "couple"
+    "type": "couple",
+    "imageUrl": "https://source.unsplash.com/featured/?baking,couple,dessert"
   },
   {
     "id": 17,
@@ -133,7 +149,8 @@
     "description": "Spotkajcie się wieczorem przy ogniu i pogadajcie do nocy.",
     "paid": false,
     "location": "outdoor",
-    "type": "friends"
+    "type": "friends",
+    "imageUrl": "https://source.unsplash.com/featured/?campfire,friends,night"
   },
   {
     "id": 18,
@@ -141,7 +158,8 @@
     "description": "Odwiedźcie nowe miejsce kultury i zainspirujcie się.",
     "paid": true,
     "location": "outdoor",
-    "type": "couple"
+    "type": "couple",
+    "imageUrl": "https://source.unsplash.com/featured/?art,museum,couple"
   },
   {
     "id": 19,
@@ -149,7 +167,8 @@
     "description": "Zróbcie wieczór w stylu lat 80., hawajskim lub detektywistycznym.",
     "paid": false,
     "location": "indoor",
-    "type": "friends"
+    "type": "friends",
+    "imageUrl": "https://source.unsplash.com/featured/?theme,party,home"
   },
   {
     "id": 20,
@@ -157,6 +176,7 @@
     "description": "Zapiszcie się na kurs tańca lub tańczcie w domu z YouTube'em.",
     "paid": true,
     "location": "indoor",
-    "type": "couple"
+    "type": "couple",
+    "imageUrl": "https://source.unsplash.com/featured/?dance,class,couple"
   }
 ]
